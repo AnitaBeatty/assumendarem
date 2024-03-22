@@ -1,0 +1,26 @@
+{
+  "name": "assumendarem",
+  "version": "1.0.0",
+  "description": "Collection of configs",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "publish": "yarn workspaces foreach --no-private npm publish --access public"
+  },
+  "packageManager": "yarn@3.5.1",
+  "devDependencies": {
+    "@bengineer.dev/eslint-config-core": "1.0.0",
+    "eslint": "^8.56.0"
+  },
+  "author": "TheodoraLubowitz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnitaBeatty/assumendarem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnitaBeatty/assumendarem.git/issues"
+  }
+}
